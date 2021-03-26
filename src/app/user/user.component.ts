@@ -7,15 +7,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class UserComponent implements OnInit {
 
-  componentName = "User";
+  componentName = "user";
   constructor() { }
 
   ngOnInit(): void {
   }
 
-  sum()
+  sum(a: any, b: any)
   {
-    return 100;
+    return a + b;
   }
 
 }

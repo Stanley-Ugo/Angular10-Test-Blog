@@ -13,4 +13,9 @@ export class UserComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  sum()
+  {
+    return 100;
+  }
+
 }

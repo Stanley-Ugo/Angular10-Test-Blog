@@ -30,4 +30,9 @@ describe('UserComponent', () => {
   it("testing function", ()=> {
     expect(component.sum(50, 50)).toBe(100);
   });
+
+  it("testing html element", ()=> {
+    const data = fixture.nativeElement;
+    expect(data.querySelector(".some").textContent).toContain("User");
+  });
 });

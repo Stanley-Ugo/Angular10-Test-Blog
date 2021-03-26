@@ -24,6 +24,6 @@ describe('UserComponent', () => {
   });
 
   it("testing title", ()=> {
-    
+    expect(component.componentName).toBe("user");
   })
 });

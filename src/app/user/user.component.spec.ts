@@ -28,6 +28,6 @@ describe('UserComponent', () => {
   });
 
   it("testing function", ()=> {
-    expect(component.componentName).toBe("user");
+    expect(component.sum).toBe(100);
   });
 });

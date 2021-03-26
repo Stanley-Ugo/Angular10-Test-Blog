@@ -28,6 +28,6 @@ describe('UserComponent', () => {
   });
 
   it("testing function", ()=> {
-    expect(component.sum).toBe(100);
+    expect(component.sum(50, 50)).toBe(100);
   });
 });

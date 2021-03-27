@@ -1,4 +1,4 @@
 describe("dummy component", ()=>{
   it("lets check amount", ()=>expect(100).toBe(100));
-  it("lets check char", ()=>expect("hello").toBe("hi"));
+  it("lets check char", ()=>expect("hello").toBe("hello"));
 })

@@ -15,12 +15,13 @@ describe('UserComponent', () => {
 
   beforeEach(() => {
     fixture = TestBed.createComponent(UserComponent);
+    
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
 
   it('should create', () => {
-    
+
     expect(component).toBeTruthy();
   });
 

@@ -24,11 +24,12 @@ describe('UserComponent', () => {
   });
 
   it("testing title", ()=> {
+    
     expect(component.componentName).toBe("user");
   });
 
   it("testing function", ()=> {
-    
+
     expect(component.sum(50, 50)).toBe(100);
   });
 

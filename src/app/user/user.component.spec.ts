@@ -42,5 +42,6 @@ describe('UserComponent', () => {
     const data = fixture.nativeElement;
 
     expect(data.querySelector(".some").textContent).toContain("User");
+    
   });
 });

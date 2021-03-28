@@ -33,6 +33,7 @@ describe('UserComponent', () => {
 
   it("testing html element", ()=> {
     const data = fixture.nativeElement;
+
     expect(data.querySelector(".some").textContent).toContain("User");
   });
 });
